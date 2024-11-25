@@ -1,0 +1,12 @@
+public class {{className}}: PickData
+{
+{{content}}
+
+	/// <summary>
+	/// 解析数据
+	/// <summary>
+	public override void ReadData(byte[] datas, ref int index, ref int uid)
+	{
+{{parseData}}
+	}
+}
